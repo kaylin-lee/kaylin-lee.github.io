@@ -2,6 +2,7 @@
   --top-padding-y: 1.5rem;
 }
 
+
 .top {
   padding: var(--top-padding-y);
   background-color: #C5D5CB;
@@ -47,8 +48,4 @@ footer p {
 
 
 
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
-}
+
