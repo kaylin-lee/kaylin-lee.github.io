@@ -1,0 +1,54 @@
+:root {
+  --top-padding-y: 1.5rem;
+}
+
+.top {
+  padding: var(--top-padding-y);
+  background-color: #C5D5CB;
+  margin-bottom: 0;
+}
+
+.top {
+  padding-top: var(--top-padding-y);
+  padding-bottom: var(--top-padding-y);
+}
+
+
+
+@media (min-width: 768px) {
+  .top {
+    padding-top: calc(var(--top-padding-y) * 2);
+    padding-bottom: calc(var(--top-padding-y) * 2);
+  }
+}
+
+.top p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.top .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
